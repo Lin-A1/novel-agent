@@ -2,6 +2,11 @@
 
 该项目通过定义不同的`agent`实现定义的`action`以完成小说的撰写
 
+## 相关文件地址
+生成小说路径：[novel.txt](workspace/novel.txt)
+
+主函数路径[main.py](main.py)
+
 ## 角色与动作的协作
 
 ### 角色与动作的分工
@@ -38,5 +43,5 @@
 | **ChapterReviewer** | 审查已完成的章节，并为下一章提供创作指导                         | **ContentReader** | 提供章节写作指导，分析情节进展与人物变化                    |
 | **NovelWriter**     | 根据指导完成每个章节的详细写作                                    | **NovelWrite**   | 根据指导和章节目标创作详细的章节文本                        |
 
----
 
+---
